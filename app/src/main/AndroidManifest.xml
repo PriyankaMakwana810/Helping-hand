@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HalpingHand"
         tools:targetApi="31">
+<<<<<<< HEAD
+=======
+
+>>>>>>> b5e334c (validation of login)
         <activity
             android:name=".viewexams"
             android:exported="false">
