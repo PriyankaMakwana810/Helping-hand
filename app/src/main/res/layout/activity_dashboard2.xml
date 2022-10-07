@@ -74,15 +74,14 @@
         android:id="@+id/textView23"
         android:layout_width="229dp"
         android:layout_height="47dp"
-        android:text="    View History      "
+        android:text="    View All Helpers Agreed for Help"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#3F51B5"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.526" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView24"
