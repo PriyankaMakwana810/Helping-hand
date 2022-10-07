@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class askexam extends AppCompatActivity {
     public Button button;
@@ -21,12 +22,14 @@ public class askexam extends AppCompatActivity {
         checkBox = (CheckBox) findViewById(R.id.checkBox2);
         textdate = (EditText) findViewById(R.id.editTextDate);
         texttime = (EditText) findViewById(R.id.editTextTime);
-        location = (EditText) findViewById(R.id.editTextTextMultiLine);
-        language = (EditText) findViewById(R.id.editTextTextMultiLine2);
+        location = (EditText) findViewById(R.id.editText);
+        language = (EditText) findViewById(R.id.editText2);
         contact = (EditText) findViewById(R.id.editTextPhone2);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+//                Toast.makeText(askexam.this, "Data Submitted to Helpers", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Data Submitted to Helpers",Toast.LENGTH_LONG).show();
                 Intent intent=new Intent(getApplicationContext(),dashboard2.class);
                 startActivity(intent);
             }

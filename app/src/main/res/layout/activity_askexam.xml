@@ -11,8 +11,46 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".askexam"
-        tools:layout_editor_absoluteX="-15dp"
-        tools:layout_editor_absoluteY="16dp">
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Name:"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.175"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.24" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.796"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.752" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.81"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.225" />
 
         <TextView
             android:id="@+id/textView35"
@@ -21,24 +59,10 @@
             android:text="Contact no:"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.111"
+            app:layout_constraintHorizontal_bias="0.182"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.775" />
-
-        <EditText
-            android:id="@+id/editTextTextMultiLine2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:gravity="start|top"
-            android:inputType="textMultiLine"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.597"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.677" />
+            app:layout_constraintVertical_bias="0.838" />
 
         <TextView
             android:id="@+id/textView34"
@@ -47,10 +71,10 @@
             android:text="Language:"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.106"
+            app:layout_constraintHorizontal_bias="0.179"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.689" />
+            app:layout_constraintVertical_bias="0.762" />
 
         <TextView
             android:id="@+id/textView32"
@@ -59,10 +83,10 @@
             android:text="Location:"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.107"
+            app:layout_constraintHorizontal_bias="0.175"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.612" />
+            app:layout_constraintVertical_bias="0.685" />
 
         <TextView
             android:id="@+id/textView31"
@@ -71,10 +95,10 @@
             android:text="Exam Time:"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.094"
+            app:layout_constraintHorizontal_bias="0.183"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.515" />
+            app:layout_constraintVertical_bias="0.608" />
 
         <TextView
             android:id="@+id/textView30"
@@ -83,10 +107,10 @@
             android:text="Exam Date:"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.111"
+            app:layout_constraintHorizontal_bias="0.181"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.431" />
+            app:layout_constraintVertical_bias="0.515" />
 
         <CheckBox
             android:id="@+id/checkBox2"
@@ -95,10 +119,10 @@
             android:text="Other"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintHorizontal_bias="0.676"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.348" />
+            app:layout_constraintVertical_bias="0.405" />
 
         <TextView
             android:id="@+id/textView27"
@@ -164,10 +188,10 @@
             android:text="Exam Type:"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.094"
+            app:layout_constraintHorizontal_bias="0.182"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.268" />
+            app:layout_constraintVertical_bias="0.324" />
 
         <EditText
             android:id="@+id/editTextDate"
@@ -177,10 +201,10 @@
             android:inputType="date"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.615"
+            app:layout_constraintHorizontal_bias="0.835"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.422" />
+            app:layout_constraintVertical_bias="0.499" />
 
         <EditText
             android:id="@+id/editTextTime"
@@ -190,24 +214,10 @@
             android:inputType="time"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.597"
+            app:layout_constraintHorizontal_bias="0.796"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.507" />
-
-        <EditText
-            android:id="@+id/editTextTextMultiLine"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:gravity="start|top"
-            android:inputType="textMultiLine"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.597"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.597" />
+            app:layout_constraintVertical_bias="0.593" />
 
         <EditText
             android:id="@+id/editTextPhone2"
@@ -217,10 +227,10 @@
             android:inputType="phone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.597"
+            app:layout_constraintHorizontal_bias="0.805"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.766" />
+            app:layout_constraintVertical_bias="0.832" />
 
         <Button
             android:id="@+id/button8"
@@ -231,7 +241,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.89" />
+            app:layout_constraintVertical_bias="0.935" />
 
         <CheckBox
             android:id="@+id/checkBox"
@@ -240,10 +250,10 @@
             android:text="University"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintHorizontal_bias="0.676"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.253" />
+            app:layout_constraintVertical_bias="0.31" />
 
         <CheckBox
             android:id="@+id/checkBox2"
@@ -252,10 +262,23 @@
             android:text="College/Internal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintHorizontal_bias="0.676"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.3" />
+            app:layout_constraintVertical_bias="0.358" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.796"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.673" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

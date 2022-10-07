@@ -35,7 +35,7 @@ public class dashboard2 extends AppCompatActivity implements AdapterView.OnItemS
 
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-        Toast.makeText(getApplicationContext(),menu[i],Toast.LENGTH_LONG).show();
+//        Toast.makeText(getApplicationContext(),menu[i],Toast.LENGTH_LONG).show();
 
     }
 
