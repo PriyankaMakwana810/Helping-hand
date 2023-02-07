@@ -7,15 +7,14 @@ import android.text.util.Rfc822Token;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
+/*import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;*/
 
 public class registrationh extends AppCompatActivity {
     public Button button;
     private EditText name,email,contact,pass,city,language,qualification;
-    FirebaseDatabase firebaseDatabase;
-    DatabaseReference databaseReference;
+    /*FirebaseDatabase firebaseDatabase;
+    DatabaseReference databaseReference;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +27,7 @@ public class registrationh extends AppCompatActivity {
         city=(EditText) findViewById(R.id.editTextTextPersonName4);
         language=(EditText) findViewById(R.id.editTextTextPersonName5);
         qualification=(EditText) findViewById(R.id.editTextTextPersonName6);
-        firebaseDatabase=firebaseDatabase.getInstance();
+//        firebaseDatabase=firebaseDatabase.getInstance();
         button=(Button) findViewById(R.id.button4);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
