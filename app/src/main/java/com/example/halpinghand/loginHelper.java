@@ -24,7 +24,7 @@ public class loginHelper extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_helper);
-        textView = (TextView) findViewById(R.id.textView5);
+        textView = (TextView) findViewById(R.id.registerh);
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -32,7 +32,7 @@ public class loginHelper extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        textView2 = (TextView) findViewById(R.id.textView4);
+        textView2 = (TextView) findViewById(R.id.fpassh);
         textView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,8 +46,8 @@ public class loginHelper extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), dashboard1.class);
                 startActivity(intent);
-                TextEmailAddress = (EditText) findViewById(R.id.editTextTextEmailAddress);
-                TextPassword = (EditText) findViewById(R.id.editTextTextPassword);
+                TextEmailAddress = (EditText) findViewById(R.id.emailh1);
+                TextPassword = (EditText) findViewById(R.id.passh);
                 button.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {

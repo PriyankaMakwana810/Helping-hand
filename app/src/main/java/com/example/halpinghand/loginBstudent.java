@@ -16,15 +16,15 @@ public class loginBstudent extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_bstudent);
-        textView = (TextView) findViewById(R.id.textView18);
+        textView = (TextView) findViewById(R.id.registerb);
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(getApplicationContext(),registrationh.class);
+                Intent intent=new Intent(getApplicationContext(),registrationb.class);
                 startActivity(intent);
             }
         });
-        textView2 = (TextView) findViewById(R.id.textView19);
+        textView2 = (TextView) findViewById(R.id.fpassb);
         textView2.setOnClickListener(new View.OnClickListener() {
             @Override
 
@@ -33,7 +33,7 @@ public class loginBstudent extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        button = (Button) findViewById(R.id.button5);
+        button = (Button) findViewById(R.id.button3);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
